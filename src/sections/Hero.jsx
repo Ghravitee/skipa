@@ -91,7 +91,7 @@ const Hero = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("0xc66B839Ef20f2D35B3B7b0f6d908Ab63a9829674");
+    navigator.clipboard.writeText("0x0000000000000000000000000000");
     setHasCopied(true);
 
     setTimeout(() => {
@@ -123,7 +123,7 @@ const Hero = () => {
               </h2>
             ) : (
               <h2 className="text-xl sm:text-2xl text-white font-bold break-all">
-                0xc66B839Ef20f2D35B3B7b0f6d908Ab63a9829674
+                0x0000000000000000000000000000
               </h2>
             )}
 
