@@ -81,7 +81,7 @@
 // export default Hero;
 
 // import proof from "../assets/proof.webp";
-import panda from "../assets/panda.PNG";
+import panda from "../assets/panda.webp";
 import { useState } from "react";
 import { FaRegCopy } from "react-icons/fa6";
 import { FaCopy } from "react-icons/fa6";
