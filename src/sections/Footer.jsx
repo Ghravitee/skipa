@@ -61,10 +61,10 @@ const Footer = () => {
         </div>
 
         <a
-          href=""
+          href="https://www.skipabase.fun/"
           className="font-edo text-center text-white text-[1.5rem] mt-16 flex justify-center"
         >
-          skipa.fun
+          skipabase.fun
         </a>
       </div>
     </footer>
