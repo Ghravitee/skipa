@@ -9,7 +9,7 @@ const Hero = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("0xeE0226048Fc4c9Bc072DAaa4c284a69837264a37");
+    navigator.clipboard.writeText("0x000000000000000000000000000000");
     setHasCopied(true);
 
     setTimeout(() => {
@@ -41,7 +41,7 @@ const Hero = () => {
               </h2>
             ) : (
               <h2 className="text-xl text-white font-bold break-all">
-                0xeE0226048Fc4c9Bc072DAaa4c284a69837264a37
+                0x000000000000000000000000000000
               </h2>
             )}
 
@@ -56,7 +56,7 @@ const Hero = () => {
 
           <div className="flex flex-wrap mt-8 gap-1 justify-center lg:justify-start">
             <a
-              href="https://dexscreener.com/base/0xee0226048fc4c9bc072daaa4c284a69837264a37"
+              href="#"
               className="bg-blue-600 py-3 px-4 flex border border-b-[7px] border-b-black rounded-2xl gap-2 items-center"
             >
               <img
@@ -71,7 +71,7 @@ const Hero = () => {
               </p>
             </a>
             <a
-              href="https://dexscreener.com/base/0xee0226048fc4c9bc072daaa4c284a69837264a37"
+              href="#"
               className="flex justify-center items-center text-white font-bold text-lg sm:text-[2rem] bg-blue-600 border border-b-[7px] border-b-black rounded-2xl py-3 px-4"
             >
               Buy $SKIPA
