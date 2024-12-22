@@ -12,11 +12,8 @@ const Piechart = () => {
 
       const context = chartRef.current.getContext("2d");
 
-      Chart.defaults.font.color = "#ffffff";
-      Chart.defaults.font.size = 24;
       const newChart = new Chart(context, {
         type: "pie",
-
         data: {
           labels: [
             "80% LP Locked initially",
@@ -44,16 +41,25 @@ const Piechart = () => {
             },
           ],
         },
-        options: {},
+        options: {
+          plugins: {
+            legend: {
+              labels: {
+                color: "black", // Set label color to black
+                font: {
+                  size: 18, // Optional: Adjust font size
+                },
+              },
+            },
+          },
+        },
       });
       chartRef.current.chart = newChart;
     }
   }, []);
+
   return (
-    <div
-      //   style={{ position: "relative", width: "90vw", height: "70vh" }}
-      className="lg:w-[500px] lg:h-[70vh]"
-    >
+    <div className="lg:w-[500px] lg:h-[70vh]">
       <canvas ref={chartRef} />
     </div>
   );
