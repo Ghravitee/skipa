@@ -5,7 +5,7 @@ import { FaRegCopy } from "react-icons/fa6";
 import { FaCopy } from "react-icons/fa6";
 import dex from "../assets/dex-screener.PNG";
 
-import apeStore from "../assets/apestore.png";
+import apeStore from "../assets/apestore.PNG";
 
 const Hero = () => {
   const [hasCopied, setHasCopied] = useState(false);
