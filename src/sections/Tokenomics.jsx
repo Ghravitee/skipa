@@ -4,7 +4,7 @@ import InfiniteScroll from "../components/InfiniteScroll";
 const Tokenomics = () => {
   return (
     <section className="py-20 linear">
-      <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-2 gap-6 px-4">
+      <div className=" px-4">
         <h2 className="text-5xl sm:text-6xl text-center text-blue-600 my-6 font-bold font1 lg:hidden font-edo">
           SKIPANOMICS
         </h2>
