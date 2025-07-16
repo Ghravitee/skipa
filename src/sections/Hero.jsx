@@ -3,7 +3,7 @@ import skipanda from "../assets/skipanda.webp";
 import { useState } from "react";
 import { FaRegCopy } from "react-icons/fa6";
 import { FaCopy } from "react-icons/fa6";
-import dex from "../assets/dex-screener.png";
+import dex from "../assets/dex-screener.PNG";
 
 import apeStore from "../assets/apestore.png";
 
