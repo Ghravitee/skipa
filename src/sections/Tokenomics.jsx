@@ -3,7 +3,7 @@ import InfiniteScroll from "../components/InfiniteScroll";
 // import skipandas from "../assets/skipandas.webp";
 const Tokenomics = () => {
   return (
-    <section className="py-20 linear">
+    <section className="py-20 linear overflow-x-hidden">
       <div className=" px-4">
         <h2 className="text-5xl sm:text-6xl text-center text-blue-600 my-6 font-bold font1 lg:hidden font-edo">
           SKIPANOMICS

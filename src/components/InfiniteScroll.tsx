@@ -18,7 +18,7 @@ const InfiniteScroll = ({
       className={`wrapper ${background} ${orientation} ${border} ${position}`}
     >
       <div className="scrolling-text">
-        {Array(5)
+        {Array(10)
           .fill("$SKIPA")
           .map((text, index) => (
             <div key={index} className={`item ${textColor}`}>
