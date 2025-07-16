@@ -9,7 +9,7 @@ const Hero = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("0x000000000000000000000000000000");
+    navigator.clipboard.writeText("0x0000000000000000000000000000000");
     setHasCopied(true);
 
     setTimeout(() => {
