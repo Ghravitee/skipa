@@ -19,3 +19,46 @@
     src: url("/src/assets/fonts/edo.ttf") format("truetype");
   }
 }
+
+.wrapper {
+  position: relative;
+  width: 110%;
+  margin-inline: auto;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrolling-text {
+  display: flex;
+  gap: 2rem;
+  white-space: nowrap;
+  animation: scrollleft 15s linear infinite;
+}
+
+@keyframes scrollleft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.item {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+/* Adjust for mobile */
+@media (max-width: 768px) {
+  .item {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  .scrolling-text {
+    gap: 1rem; /* Ensure proper spacing */
+    animation-duration: 15s; /* Slow down animation for mobile */
+  }
+}
