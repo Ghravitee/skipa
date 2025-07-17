@@ -11,7 +11,7 @@ const Hero = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("0x0000000000000000000000000000000");
+    navigator.clipboard.writeText("0x18e08860a2878e985352fb63952abcb59b124eba");
     setHasCopied(true);
 
     setTimeout(() => {
@@ -43,7 +43,7 @@ const Hero = () => {
               </h2>
             ) : (
               <h2 className="text-xl text-white font-bold break-all">
-                0x000000000000000000000000000000
+                0x18e08860a2878e985352fb63952abcb59b124eba
               </h2>
             )}
 
@@ -74,7 +74,7 @@ const Hero = () => {
 
             {/* Buy Button */}
             <a
-              href="#"
+              href="https://ape.store/base/0x18e08860a2878e985352fb63952abcb59b124eba"
               className="w-full sm:w-[280px] flex items-center justify-center text-white text-lg sm:text-2xl font-bold bg-blue-600 border border-b-[7px] border-b-black rounded-2xl py-4 px-4 gap-2"
             >
               <img

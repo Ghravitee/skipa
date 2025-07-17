@@ -13,13 +13,13 @@ const Footer = () => {
         </h2>
         <div className="flex justify-center gap-2">
           <a
-            href="https://x.com/skipabase"
+            href="https://x.com/skipa_base"
             className="py-3 px-4 flex items-center justify-center bg-black rounded-xl"
           >
             <RiTwitterXFill color="white" className="text-3xl sm:text-4xl" />
           </a>
           <a
-            href="https://t.me/skipabase"
+            href="https://t.me/skipa_base"
             className="py-3 px-4 flex items-center justify-center bg-black rounded-xl"
           >
             <RiTelegram2Fill color="white" className="text-3xl sm:text-4xl" />

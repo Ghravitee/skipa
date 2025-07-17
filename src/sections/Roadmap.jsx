@@ -141,7 +141,7 @@ const Roadmap = () => {
                 transition={{ delay: 1.5, duration: 0.5 }}
               >
                 <h3 className="mb-3 font-bold text-gray-800 text-lg md:text-xl rowdies">
-                  Phase 4: Calls , Ads and partnership with Ski Mask Dog
+                  Phase 4: Calls , Ads and partnerships with Ski masked base animals 
                 </h3>
               </motion.div>
             </motion.div>
